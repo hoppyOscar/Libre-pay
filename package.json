@@ -1,0 +1,26 @@
+{
+  "name": "libre-pay-v5-multired",
+  "private": true,
+  "version": "5.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@reown/appkit": "latest",
+    "@reown/appkit-adapter-wagmi": "latest",
+    "@reown/appkit-adapter-solana": "latest",
+    "@solana/web3.js": "latest",
+    "viem": "latest",
+    "wagmi": "^2.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "@tanstack/react-query": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}
